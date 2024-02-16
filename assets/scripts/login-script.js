@@ -11,7 +11,7 @@ const inputPasswordElement = document.querySelector('#inputPassword');
 
 const expectedEmail = 'admin@dicoding.com';
 const expectedPassword = 'superpassword';
-
+/* comment = Jika sesuai maka program akan berpindah ke halaman home. */
 loginFormElement.addEventListener('submit', function(event) {
   event.preventDefault();
 
